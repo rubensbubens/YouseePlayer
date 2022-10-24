@@ -30,7 +30,7 @@ struct SwipeTrackView<Content: View>: UIViewRepresentable {
             return
         }
 
-        // NOTE: small delay to let view define its frame
+        // NOTE: short delay to let view define its frame
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) {
             view.previousTrackView = map(content: previousTrack?())
             view.currentTrackView = map(content: currentTrack())
