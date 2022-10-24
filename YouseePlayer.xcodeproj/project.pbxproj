@@ -11,6 +11,18 @@
 		612020E729015E48006C9B41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612020E629015E48006C9B41 /* ContentView.swift */; };
 		612020E929015E48006C9B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612020E829015E48006C9B41 /* Assets.xcassets */; };
 		612020ED29015E48006C9B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612020EC29015E48006C9B41 /* Preview Assets.xcassets */; };
+		6146A2E82902C292009FBDBE /* SwipeTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2E72902C292009FBDBE /* SwipeTrackCell.swift */; };
+		6146A2ED2902C330009FBDBE /* SwipeTrackCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2EC2902C330009FBDBE /* SwipeTrackCollectionView.swift */; };
+		6146A2F02902F61E009FBDBE /* PlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2EF2902F61E009FBDBE /* PlaybackService.swift */; };
+		6146A2F22902FCAA009FBDBE /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2F12902FCAA009FBDBE /* TrackCell.swift */; };
+		6146A2F42902FCC7009FBDBE /* TrackInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2F32902FCC7009FBDBE /* TrackInfoView.swift */; };
+		6146A2F62902FCDE009FBDBE /* TrackPlayingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2F52902FCDE009FBDBE /* TrackPlayingCover.swift */; };
+		6146A2F82902FCF6009FBDBE /* TrackCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2F72902FCF6009FBDBE /* TrackCover.swift */; };
+		6146A2FA2902FF42009FBDBE /* FadeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2F92902FF42009FBDBE /* FadeGradient.swift */; };
+		615752E92901A92800622F38 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752E82901A92800622F38 /* MiniPlayerView.swift */; };
+		615752EE2901D4AB00622F38 /* SwipeTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752ED2901D4AB00622F38 /* SwipeTrackView.swift */; };
+		615752F02901E0E100622F38 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752EF2901E0E100622F38 /* Track.swift */; };
+		615752F22901E1B600622F38 /* MiniPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,18 @@
 		612020E829015E48006C9B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		612020EA29015E48006C9B41 /* YouseePlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouseePlayer.entitlements; sourceTree = "<group>"; };
 		612020EC29015E48006C9B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6146A2E72902C292009FBDBE /* SwipeTrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTrackCell.swift; sourceTree = "<group>"; };
+		6146A2EC2902C330009FBDBE /* SwipeTrackCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTrackCollectionView.swift; sourceTree = "<group>"; };
+		6146A2EF2902F61E009FBDBE /* PlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackService.swift; sourceTree = "<group>"; };
+		6146A2F12902FCAA009FBDBE /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		6146A2F32902FCC7009FBDBE /* TrackInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoView.swift; sourceTree = "<group>"; };
+		6146A2F52902FCDE009FBDBE /* TrackPlayingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPlayingCover.swift; sourceTree = "<group>"; };
+		6146A2F72902FCF6009FBDBE /* TrackCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCover.swift; sourceTree = "<group>"; };
+		6146A2F92902FF42009FBDBE /* FadeGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeGradient.swift; sourceTree = "<group>"; };
+		615752E82901A92800622F38 /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		615752ED2901D4AB00622F38 /* SwipeTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTrackView.swift; sourceTree = "<group>"; };
+		615752EF2901E0E100622F38 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,7 @@
 		612020E329015E48006C9B41 /* YouseePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				615752EA2901A97300622F38 /* Player */,
 				612020E429015E48006C9B41 /* YouseePlayerApp.swift */,
 				612020E629015E48006C9B41 /* ContentView.swift */,
 				612020E829015E48006C9B41 /* Assets.xcassets */,
@@ -67,6 +92,41 @@
 				612020EC29015E48006C9B41 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6146A2E92902C2C8009FBDBE /* SwipeTrack */ = {
+			isa = PBXGroup;
+			children = (
+				6146A2E72902C292009FBDBE /* SwipeTrackCell.swift */,
+				6146A2EC2902C330009FBDBE /* SwipeTrackCollectionView.swift */,
+				615752ED2901D4AB00622F38 /* SwipeTrackView.swift */,
+			);
+			path = SwipeTrack;
+			sourceTree = "<group>";
+		};
+		6146A2EE2902D5C0009FBDBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				615752EF2901E0E100622F38 /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		615752EA2901A97300622F38 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6146A2EE2902D5C0009FBDBE /* Model */,
+				6146A2E92902C2C8009FBDBE /* SwipeTrack */,
+				615752E82901A92800622F38 /* MiniPlayerView.swift */,
+				615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */,
+				6146A2EF2902F61E009FBDBE /* PlaybackService.swift */,
+				6146A2F12902FCAA009FBDBE /* TrackCell.swift */,
+				6146A2F72902FCF6009FBDBE /* TrackCover.swift */,
+				6146A2F32902FCC7009FBDBE /* TrackInfoView.swift */,
+				6146A2F52902FCDE009FBDBE /* TrackPlayingCover.swift */,
+				6146A2F92902FF42009FBDBE /* FadeGradient.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +199,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6146A2F82902FCF6009FBDBE /* TrackCover.swift in Sources */,
+				615752F22901E1B600622F38 /* MiniPlayerViewModel.swift in Sources */,
+				615752E92901A92800622F38 /* MiniPlayerView.swift in Sources */,
+				6146A2FA2902FF42009FBDBE /* FadeGradient.swift in Sources */,
+				6146A2F62902FCDE009FBDBE /* TrackPlayingCover.swift in Sources */,
+				6146A2ED2902C330009FBDBE /* SwipeTrackCollectionView.swift in Sources */,
+				6146A2F02902F61E009FBDBE /* PlaybackService.swift in Sources */,
 				612020E729015E48006C9B41 /* ContentView.swift in Sources */,
+				6146A2F22902FCAA009FBDBE /* TrackCell.swift in Sources */,
+				615752EE2901D4AB00622F38 /* SwipeTrackView.swift in Sources */,
+				6146A2E82902C292009FBDBE /* SwipeTrackCell.swift in Sources */,
 				612020E529015E48006C9B41 /* YouseePlayerApp.swift in Sources */,
+				615752F02901E0E100622F38 /* Track.swift in Sources */,
+				6146A2F42902FCC7009FBDBE /* TrackInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -279,7 +353,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
@@ -317,7 +391,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;

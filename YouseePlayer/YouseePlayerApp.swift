@@ -11,7 +11,7 @@ import SwiftUI
 struct YouseePlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MiniPlayerView()
         }
     }
 }
