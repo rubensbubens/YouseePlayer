@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		612020E529015E48006C9B41 /* YouseePlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612020E429015E48006C9B41 /* YouseePlayerApp.swift */; };
-		612020E729015E48006C9B41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612020E629015E48006C9B41 /* ContentView.swift */; };
 		612020E929015E48006C9B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612020E829015E48006C9B41 /* Assets.xcassets */; };
 		612020ED29015E48006C9B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 612020EC29015E48006C9B41 /* Preview Assets.xcassets */; };
 		6146A2E82902C292009FBDBE /* SwipeTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146A2E72902C292009FBDBE /* SwipeTrackCell.swift */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		612020E129015E48006C9B41 /* YouseePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouseePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		612020E429015E48006C9B41 /* YouseePlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouseePlayerApp.swift; sourceTree = "<group>"; };
-		612020E629015E48006C9B41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		612020E829015E48006C9B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		612020EA29015E48006C9B41 /* YouseePlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouseePlayer.entitlements; sourceTree = "<group>"; };
 		612020EC29015E48006C9B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			children = (
 				615752EA2901A97300622F38 /* Player */,
 				612020E429015E48006C9B41 /* YouseePlayerApp.swift */,
-				612020E629015E48006C9B41 /* ContentView.swift */,
 				612020E829015E48006C9B41 /* Assets.xcassets */,
 				612020EA29015E48006C9B41 /* YouseePlayer.entitlements */,
 				612020EB29015E48006C9B41 /* Preview Content */,
@@ -206,7 +203,6 @@
 				6146A2F62902FCDE009FBDBE /* TrackPlayingCover.swift in Sources */,
 				6146A2ED2902C330009FBDBE /* SwipeTrackCollectionView.swift in Sources */,
 				6146A2F02902F61E009FBDBE /* PlaybackService.swift in Sources */,
-				612020E729015E48006C9B41 /* ContentView.swift in Sources */,
 				6146A2F22902FCAA009FBDBE /* TrackCell.swift in Sources */,
 				615752EE2901D4AB00622F38 /* SwipeTrackView.swift in Sources */,
 				6146A2E82902C292009FBDBE /* SwipeTrackCell.swift in Sources */,
