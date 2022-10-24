@@ -115,18 +115,50 @@
 		615752EA2901A97300622F38 /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				61FD11C42906F02800210282 /* Service */,
 				6146A2EE2902D5C0009FBDBE /* Model */,
+				61FD11C22906EFE600210282 /* View */,
+				61FD11C12906EFDE00210282 /* ViewModel */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		61FD11C12906EFDE00210282 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		61FD11C22906EFE600210282 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				61FD11C32906F01300210282 /* Modifiers */,
 				6146A2E92902C2C8009FBDBE /* SwipeTrack */,
 				615752E82901A92800622F38 /* MiniPlayerView.swift */,
-				615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */,
-				6146A2EF2902F61E009FBDBE /* PlaybackService.swift */,
 				6146A2F12902FCAA009FBDBE /* TrackCell.swift */,
 				6146A2F72902FCF6009FBDBE /* TrackCover.swift */,
 				6146A2F32902FCC7009FBDBE /* TrackInfoView.swift */,
 				6146A2F52902FCDE009FBDBE /* TrackPlayingCover.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61FD11C32906F01300210282 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
 				6146A2F92902FF42009FBDBE /* FadeGradient.swift */,
 			);
-			path = Player;
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		61FD11C42906F02800210282 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6146A2EF2902F61E009FBDBE /* PlaybackService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

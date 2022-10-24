@@ -9,11 +9,11 @@ import SwiftUI
 import UIKit
 
 struct SwipeTrackView<Content: View>: UIViewRepresentable {
-    var previousTrack: (() -> Content?)?
-    let currentTrack: (() -> Content)
-    var nextTrack: (() -> Content?)?
-    var skipBackward: (() -> Void)?
-    var skipForward: (() -> Void)?
+    var previousTrack: () -> Content?
+    let currentTrack: () -> Content
+    var nextTrack: () -> Content?
+    var skipBackward: () -> Void
+    var skipForward: () -> Void
     var swipes: ((Bool) -> Void)?
 
     func makeUIView(context: Context) -> some UIView {
@@ -32,9 +32,9 @@ struct SwipeTrackView<Content: View>: UIViewRepresentable {
 
         // NOTE: short delay to let view define its frame
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) {
-            view.previousTrackView = map(content: previousTrack?())
+            view.previousTrackView = map(content: previousTrack())
             view.currentTrackView = map(content: currentTrack())
-            view.nextTrackView = map(content: nextTrack?())
+            view.nextTrackView = map(content: nextTrack())
         }
     }
 

@@ -90,6 +90,10 @@ private extension SwipeTrackCollectionView {
         collectionView.isPagingEnabled = true
         collectionView.alwaysBounceHorizontal = true
         collectionView.bounces = true
+        collectionView.showsHorizontalScrollIndicator = false
+        collectionView.register(SwipeTrackCell.self, forCellWithReuseIdentifier: SwipeTrackCell.id)
+        collectionView.dataSource = self
+        collectionView.delegate = self
 
         addSubview(collectionView)
 
@@ -100,11 +104,6 @@ private extension SwipeTrackCollectionView {
             collectionView.topAnchor.constraint(equalTo: topAnchor),
             collectionView.bottomAnchor.constraint(equalTo: bottomAnchor),
         ])
-
-        collectionView.register(SwipeTrackCell.self, forCellWithReuseIdentifier: SwipeTrackCell.id)
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.showsHorizontalScrollIndicator = false
     }
 
     func removeView(_ view: UIView?) {
