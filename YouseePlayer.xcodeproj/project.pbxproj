@@ -22,6 +22,7 @@
 		615752EE2901D4AB00622F38 /* SwipeTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752ED2901D4AB00622F38 /* SwipeTrackView.swift */; };
 		615752F02901E0E100622F38 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752EF2901E0E100622F38 /* Track.swift */; };
 		615752F22901E1B600622F38 /* MiniPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */; };
+		61FD11C02906C69A00210282 /* SwipeTrackPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FD11BF2906C69A00210282 /* SwipeTrackPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		615752ED2901D4AB00622F38 /* SwipeTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTrackView.swift; sourceTree = "<group>"; };
 		615752EF2901E0E100622F38 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		615752F12901E1B600622F38 /* MiniPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerViewModel.swift; sourceTree = "<group>"; };
+		61FD11BF2906C69A00210282 /* SwipeTrackPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTrackPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				6146A2E72902C292009FBDBE /* SwipeTrackCell.swift */,
 				6146A2EC2902C330009FBDBE /* SwipeTrackCollectionView.swift */,
 				615752ED2901D4AB00622F38 /* SwipeTrackView.swift */,
+				61FD11BF2906C69A00210282 /* SwipeTrackPageView.swift */,
 			);
 			path = SwipeTrack;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				6146A2ED2902C330009FBDBE /* SwipeTrackCollectionView.swift in Sources */,
 				6146A2F02902F61E009FBDBE /* PlaybackService.swift in Sources */,
 				6146A2F22902FCAA009FBDBE /* TrackCell.swift in Sources */,
+				61FD11C02906C69A00210282 /* SwipeTrackPageView.swift in Sources */,
 				615752EE2901D4AB00622F38 /* SwipeTrackView.swift in Sources */,
 				6146A2E82902C292009FBDBE /* SwipeTrackCell.swift in Sources */,
 				612020E529015E48006C9B41 /* YouseePlayerApp.swift in Sources */,

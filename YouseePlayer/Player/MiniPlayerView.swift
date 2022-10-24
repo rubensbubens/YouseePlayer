@@ -34,15 +34,22 @@ struct MiniPlayerView: View {
                     TrackCover(color: .green)
                         .padding(.leading, 16)
 
-                    SwipeTrackView(
+//                    SwipeTrackView(
+//                        previousTrack: { makeView(for: viewModel.previousTrack) },
+//                        currentTrack: { makeView(for: viewModel.currentTrack) },
+//                        nextTrack: { makeView(for: viewModel.nextTrack) },
+//                        skipBackward: viewModel.skipBackward,
+//                        skipForward: viewModel.skipForward
+////                        swipes: { isSwiping in
+////                            swipeSession = isSwiping ? viewModel.swipeSession : nil
+////                        }
+//                    )
+                    SwipeTrackPageView(
                         previousTrack: { makeView(for: viewModel.previousTrack) },
                         currentTrack: { makeView(for: viewModel.currentTrack) },
                         nextTrack: { makeView(for: viewModel.nextTrack) },
                         skipBackward: viewModel.skipBackward,
                         skipForward: viewModel.skipForward
-//                        swipes: { isSwiping in
-//                            swipeSession = isSwiping ? viewModel.swipeSession : nil
-//                        }
                     )
                     .frame(height: 60)
                     .padding(8)
