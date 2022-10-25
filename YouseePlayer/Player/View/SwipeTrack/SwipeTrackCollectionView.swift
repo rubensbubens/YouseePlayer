@@ -175,9 +175,12 @@ extension SwipeTrackCollectionView: UIScrollViewDelegate {
 
     private func handleSwipe(for scrollView: UIScrollView) {
         let contentOffsetX = scrollView.contentOffset.x
+        let scrollViewWidth = scrollView.frame.size.width
 
-        if contentOffsetX < scrollView.frame.size.width {
+        if contentOffsetX < scrollViewWidth {
             skipBackward?()
+        } else if contentOffsetX == scrollViewWidth {
+            // NOTE: Scroll back to current track. Do nothing...
         } else {
             skipForward?()
         }
